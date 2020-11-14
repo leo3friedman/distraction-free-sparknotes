@@ -1,0 +1,36 @@
+body {
+  visibility: hidden;
+}
+/* video ad that shows up in middle of text */
+body.sn-hide #ds_cpp,
+/* image that shows up on sidebar and follows as you scroll */
+body.sn-hide #ds_rightbar ,
+/* 'take a study break' */
+body.sn-hide .most-viewed-blogs,
+/* survey box on the bottom of screen */
+body.sn-hide ._hj-1tTKm__styles__surveyContainer,
+/* ad for barnes and noble book at bottom of page*/
+body.sn-hide .bn-purchase-module,
+/* google ad maybe. appears in the sidebar. (might do extra damage) */
+body.sn-hide #med_rect_btf2,
+/* googe ad maybe. appears in top of SparkNotes homepage */
+body.sn-hide #google_image_div,
+/* some ad container on homepage (might do extra damage) */
+body.sn-hide .homepage-cta--rect,
+/* some promo stuff that isn't really helpful on homepage */
+body.sn-hide #back-to-school,
+/* homepage space for an ad at the top */
+body.sn-hide #leaderboard_atf,
+/* hides all major homepage (maybe too much) distractions: back to school, giant banner, and blog included (be warry of breakage) */
+body.sn-hide .homepage__container,
+/* Another ad popup(this one had a vid) */
+body.sn-hide .rect-container,
+/* another barne and noble ad */
+body.sn-hide .bn-pod-right-rail,
+/* at bottom of page (when reading something) it give options */
+body.sn-hide .more-like-this {
+  display: none !important;
+}
+
+/* ad for barnes and noble book at sidebar (might break something good) */
+/* body.sn-hide .layout-wrapper-2018__column--right-rail__chunk */
