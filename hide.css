@@ -13,7 +13,7 @@ body.sn-hide ._hj-1tTKm__styles__surveyContainer,
 body.sn-hide .bn-purchase-module,
 /* google ad maybe. appears in the sidebar. (might do extra damage) */
 body.sn-hide #med_rect_btf2,
-/* googe ad maybe. appears in top of SparkNotes homepage */
+/* google ad maybe. appears in top of SparkNotes homepage */
 body.sn-hide #google_image_div,
 /* some ad container on homepage (might do extra damage) */
 body.sn-hide .homepage-cta--rect,
@@ -25,10 +25,12 @@ body.sn-hide #leaderboard_atf,
 body.sn-hide .homepage__container,
 /* Another ad popup(this one had a vid) */
 body.sn-hide .rect-container,
-/* another barne and noble ad */
+/* another barnes and noble ad */
 body.sn-hide .bn-pod-right-rail,
 /* at bottom of page (when reading something) it give options */
-body.sn-hide .more-like-this {
+body.sn-hide .more-like-this,
+/* ad at bottom of passage where you click next page*/
+body.sn-hide #med_rect_btf{
   display: none !important;
 }
 
