@@ -1,6 +1,6 @@
 {
   "name": "Distraction Free SparkNotes",
-  "version": "0.2",
+  "version": "0.3",
   "description": "Remove ads and distractions on SparkNotes with a single click",
   "permissions": ["storage"],
 
