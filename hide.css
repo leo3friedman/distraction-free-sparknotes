@@ -30,7 +30,10 @@ body.sn-hide .bn-pod-right-rail,
 /* at bottom of page (when reading something) it give options */
 body.sn-hide .more-like-this,
 /* ad at bottom of passage where you click next page*/
-body.sn-hide #med_rect_btf{
+body.sn-hide #med_rect_btf,
+/* Popular pages in right column*/
+.body.sn-hide .most-viewed-pages
+{
   display: none !important;
 }
 
