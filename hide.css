@@ -1,6 +1,8 @@
 body {
   visibility: hidden;
 }
+/* From the SparkNotes Blog (Homepage)*/
+body.sn-hide .homepage__section.carouselSec,
 /* video ad that shows up in middle of text */
 body.sn-hide #ds_cpp,
 /* image that shows up on sidebar and follows as you scroll */
@@ -32,10 +34,11 @@ body.sn-hide .more-like-this,
 /* ad at bottom of passage where you click next page*/
 body.sn-hide #med_rect_btf,
 /* Popular pages in right column*/
-.body.sn-hide .most-viewed-pages
+body.sn-hide .most-viewed-pages,
+/*banner at top of page*/
+body.sn-hide .global-banner.js-global-banner
 {
   display: none !important;
 }
-
 /* ad for barnes and noble book at sidebar (might break something good) */
 /* body.sn-hide .layout-wrapper-2018__column--right-rail__chunk */
